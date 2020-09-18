@@ -20,7 +20,7 @@ $(document).ready(function(){
 
     });
 
-    if (window.matchMedia('(max-width: 360px)').matches) {
+    if (window.matchMedia('(max-width: 575px)').matches) {
         menuAccordeon.click(function () {
             let box = $(this).parents('.comparison__item');
             let item = box.find('.choice__text');
