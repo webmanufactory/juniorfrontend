@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""> <!-- предназначен для создания краткого описания страницы. При поисковой выдаче в Google или Яндекс оно будет отображаться в описании страницы. -->
+    <meta name="keywords" content=""> <!-- это ключевые слова, по которым можно будет найти Вашу страницу. Вы можете внести несколько ключевых слов или фраз, разделив их запятыми. -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>junior front-end</title>
+</head>
+<body>
+    <section class="comparison">
+        <div class="container">
+            <div class="comparison__wrapper">
+                <div class="comparison__header">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-4 col-md-3">
+                            <div class="category">
+                                <p class="category__title">Для категорий</p>
+                                <form class="category__form" action="" method="post">
+                                    <select class="drop-button" name="gadgets" size="1">
+                                        <option label="Смартфоны" value="1" selected>Смартфоны</option>
+                                        <option label="Планшеты" value="2">Планшеты</option>
+                                        <option label="Ноутбуки" value="3">Ноутбуки</option>
+                                        <option label="Холодильники" value="4">Холодильники</option>
+                                    </select>
+                                    <label class="radio-button">
+                                        <input type="radio" name="choice__text" value="5" checked><span></span> Все характеристики</label>
+                                    <label class="radio-button">
+                                        <input type="radio" name="choice__text" value="6"><span></span> Показать только различия</label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <div class="item">
+                                <div class="item__image">
+                                    <img src="img/item1.png" alt="iphone 11 pro">
+                                </div>
+                                <div class="item__about">
+                                    <p class="item__title">Смартфоны</p>
+                                    <h4 class="item__text">Apple iPhone 11 64 Gb (Gold)</h4>
+                                    <div class="item__price">49 999 ₽<span>60 999 ₽</span></div>
+                                    <div class="item__buttons">
+                                        <button class="item__button cart-button"><span>В корзину</span></button>
+                                        <button class="item__button click-button">Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <div class="item">
+                                <div class="item__image">
+                                    <img src="img/item2.png" alt="Xiaomi Redmi Note 8 Pro">
+                                </div>
+                                <div class="item__about">
+                                    <p class="item__title">Смартфоны</p>
+                                    <h4 class="item__text">Xiaomi Redmi Note 8 Pro (blue)</h4>
+                                    <div class="item__price">16 700 ₽<span>19 999 ₽</span></div>
+                                    <div class="item__buttons">
+                                        <button class="item__button cart-button"><span>В корзину</span></button>
+                                        <button class="item__button click-button">Купить в 1 клик</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comparison__body">
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Бонусные рубли</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text bonus__text">+ 2 000 бонусов</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text bonus__text">+ 1 000 бонусов</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Акции и специальные предложения</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Рассрочка </p>
+                        </div>
+                        <div class="col-1 d-md-none d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Скидка 50% на наушники </p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Наличие</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">В наличии</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">От 3 до 5 дней</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Основные</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Операционная система</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Операционная система</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">iOS 13</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Android 4.6</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Цвет</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Цвет</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">золотой</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">синий</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Год выпуска</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Год выпуска</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">2019</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">2019</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Процессор</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Производитель</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Производитель</h5>
+                        </div>
+                        
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Apple</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Xiaomi</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Тип</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Тип</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">A13 Bionic</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">A13 Bionic</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Экран</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Диагональ (дюймов)</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Диагональ (дюймов)</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">5,8</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">5,8</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Тип экрана </h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Тип экрана </h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Super Retina XDR</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Super Retina XDR</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Разрешение экрана</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Разрешение экрана</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">2436×1125 точек</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">2436×1125 точек</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Камера</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Количество основных камер</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Количество основных камер</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">3</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">3</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Разрешения основных камер</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Разрешения основных камер</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">12 МПикс, 12 МПикс, 12 МПикс</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">12 МПикс, 12 МПикс, 12 МПикс</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Функции основной камеры</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Функции основной камеры</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Режим «Портрет», портретное освещение, оптическая стабилизация, вспышка True Tone, Focus Pixels</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Режим «Портрет», портретное освещение, оптическая стабилизация, вспышка True Tone, Focus Pixels</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Фронтальная камера</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Фронтальная камера</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Разрешение фронтальной камеры</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Разрешение фронтальной камеры</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">12 МПикс</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">12 МПикс</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Вспышка</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Вспышка</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть, светодиодная</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть, светодиодная</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Память</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Встроенная память</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Встроенная память</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">64 Гб</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">64 Гб</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Питание</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Тип разъема для зарядки</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Тип разъема для зарядки</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Lightning</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Type C</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Функция быстрой зарядки </h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Функция быстрой зарядки </h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Функция беспроводной зарядки</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Функция беспроводной зарядки</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">есть</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                    <div class="row comparison__item">
+                        <div class="col-8 col-sm-4 col-md-3">
+                            <h5 class="choice__title">Подключение</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text"></p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <div class="question-box">
+                                <h5 class="choice__subtitle">Разъем Lightning 8 Pin</h5>
+                                <button class="question">?</button>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Разъем Lightning 8 Pin</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Yes</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">No</p>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <h5 class="choice__subtitle">Разъем для наушников</h5>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-3 d-sm-none">
+                            <h5 class="choice__subtitle">Разъем для наушников</h5>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Lightning</p>
+                        </div>
+                        <div class="col-1 d-md-none"></div>
+                        <div class="col-6 col-sm-4">
+                            <p class="choice__text">Jack 3.4</p>
+                        </div>
+                    </div>
+                        <!-- row -->
+                </div>
+                <div class="comparison__footer">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="">
+                                <p class="comparison__text">Смартфон Apple iPhone 11 64GB Black (MWLT2RU/A) и Смартфон Xiaomi Redmi Note 8 Pro blue (MXD02RU/A) - сравнение основных характеристик моделей</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-4 m-auto">
+                            <div class="comparison__buttons">
+                                <button class="clear-button">Очистить список</button>
+                                <button class="cart-button footer__cart-button">Назад к товарам</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pop-up d-none">
+                    <p class="pop-up__info"><span>4500 мАч</span> - это примерно 30 часов активного использования устройства</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
